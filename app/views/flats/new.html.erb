@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Créer un appartement</h1>
+  <%= simple_form_for @flat do |f| %>
+    <%= f.input :name %>
+    <%= f.input :address %>
+    <%= f.input :rating %>
+    <%= f.submit %>
+  <% end %>
+</div>

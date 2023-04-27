@@ -1,0 +1,9 @@
+<div class="container">
+  <h1> All Appartments </h1>
+  <% @flats.each do |flat| %>
+    <%= flat.name %><br>
+    <%= flat.address %><br>
+    <%= flat.rating %>/5<br>
+    <%= link_to 'Voir mon appartement', flat_path(flat) %><br><br>
+  <% end %>
+</div>
