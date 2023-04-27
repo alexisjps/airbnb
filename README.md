@@ -1,1 +1,8 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+Une fois le repo cloné il faut lancer les commandes suivantes : 
+
+bundle
+yarn install
+rails db:drop db:create db:migrate
+
+Puis localhost : 
+rails s
